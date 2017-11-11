@@ -8,14 +8,14 @@ v_diagram = defaultdict(list)
 with open('voroni_out.txt', 'r') as f:
     for line in f:
         parts = line.split()
-        v_diagram[parts[0]].append(parts[1:])
-            
+        v_diagram[parts[0]].append(map((lambda x: float(x)),parts[1:]))
+
 #Input x-coords array, return array for parabolized x-coords
 # y = ax^2 + bx + c
 def parabola(xlist,a,b,c):
     return map((lambda x: a*(x**2) + b*2 + c), xlist)
 
-xlist = np.arange(-5,5,0.1)
+xlist = np.arange(-5,5,0.5)
 
 
 data = [dict(
@@ -26,6 +26,15 @@ data = [dict(
         y = parabola(xlist,1,0,step)) for step in np.arange(0,10,1)]
 
 data[1]['visible'] = True
+
+data.append(
+    Scatter(
+        x=list(zip(*v_diagram['s'])[0]), # Unzip list of points into
+        y=list(zip(*v_diagram['s'])[1]), # list of site coordinates
+        name = "sites",
+        mode = "markers"
+))
+
 
 steps = []
 for i in range(len(data)):
