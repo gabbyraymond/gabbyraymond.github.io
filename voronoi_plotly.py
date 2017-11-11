@@ -15,11 +15,12 @@ with open('voroni_out.txt', 'r') as f:
 def parabola(xlist,a,b,c):
     return map((lambda x: a*(x**2) + b*2 + c), xlist)
 
-xlist = np.arange(-5,5,0.5)
+# Might need to make this less smooth if if takes too long to plot everything
+xlist = np.arange(-5,5,0.1) 
 
 
 data = [dict(
-        visible = False,
+        visible = True,
         line=dict(color='00CED1', width=6),
         name = 'v = '+str(step),
         x = xlist,
@@ -40,7 +41,7 @@ steps = []
 for i in range(len(data)):
     step = dict(
         method = 'restyle',
-        args = ['visible', [False] * len(data)],
+        args = ['visible', [False] * len(data)], #FIXME
     )
     step['args'][1][i] = True # Toggle i'th trace to "visible"
     steps.append(step)
