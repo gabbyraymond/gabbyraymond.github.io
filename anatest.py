@@ -5,7 +5,7 @@ import plotly.graph_objs as go
 import numpy as np
 
 N = 500
-random_x = np.linspace(0, 1, N)
+random_x = np.linspace(0, 1, N) #haha
 random_y = np.random.randn(N)
 
 # Create a trace
