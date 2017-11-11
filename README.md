@@ -1,4 +1,5 @@
 # Comp Geom project website
+https://gabbyraymond.github.io/
 
 ## TODO List
 1. :ballot_box_with_check: Plot something on plotly
@@ -18,3 +19,11 @@
 9. Shade regions as they form
   * Use voronoi demo in plotly
 10. Reach Goal: Take in points from user, compute voronoi, and visualize
+
+## Resources
+* [Plotly getting started](https://plot.ly/python/getting-started/)
+* [Plotly Python cheat sheet](https://images.plot.ly/plotly-documentation/images/python_cheat_sheet.pdf)
+* [Plotly full reference](https://plot.ly/python/reference/)
+* [Voronoi code by Fortune, Simons](https://svn.osgeo.org/qgis/trunk/qgis/python/plugins/fTools/tools/voronoi.py)
+* [Markdown syntax](https://confluence.atlassian.com/bitbucketserver/markdown-syntax-guide-776639995.html)
+* [GitHub emoji markups](https://gist.github.com/rxaviers/7360908)
