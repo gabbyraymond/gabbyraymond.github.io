@@ -5,7 +5,7 @@ https://gabbyraymond.github.io/
 1. :ballot_box_with_check: Plot something on plotly
 2. :ballot_box_with_check: Add slider capability
 3. :ballot_box_with_check: Add multiple graphs to plotly
-4. Embed plotly graph in website
+4. :ballot_box_with_check: Embed plotly graph in website (for more info, see [Plotly embedding help](https://help.plot.ly/embed-graphs-in-websites/))
 5. :ballot_box_with_check: Read in output from voronoi.py
 6. Make sense of lines, edges, sites, vertices from voronoi.py output
   * How should these be converted to plots?
