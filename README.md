@@ -10,7 +10,7 @@ https://gabbyraymond.github.io/
 6. Make sense of lines, edges, sites, vertices from voronoi.py output
   * How should these be converted to plots?
   * Define piece-wise functions for the edges
-7. Plot all edges of a voronoi diagram
+7. :ballot_box_with_check: Plot all edges of a voronoi diagram
 8. Add in parts of lines based on sites and slider
   * Only display parabolas if the slider is past their point
   * Shift parabolas with slider
