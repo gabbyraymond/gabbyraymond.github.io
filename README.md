@@ -1,5 +1,5 @@
 # Comp Geom project website
-https://gabbyraymond.github.io/
+https://sites.google.com/view/voronoisweep/intro
 
 ## TODO List
 1. :ballot_box_with_check: Plot something on plotly
@@ -8,7 +8,7 @@ https://gabbyraymond.github.io/
 4. :ballot_box_with_check: Embed plotly graph in website (for more info, see [Plotly embedding help](https://help.plot.ly/embed-graphs-in-websites/))
 5. :ballot_box_with_check: Read in output from voronoi.py
 6. :ballot_box_with_check: Plot all edges of a voronoi diagram
-7. Write voronoi diagram generator that keeps track of wavefront states during ranges of steps
+7. :ballot_box_with_check: Write voronoi diagram generator that keeps track of wavefront states during ranges of steps
   * Use this to display edges as piecewise functions
 8. Add in parts of lines based on sites and slider
   * Only display parabolas if the slider is past their point
